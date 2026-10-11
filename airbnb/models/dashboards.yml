@@ -1,0 +1,17 @@
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://66a15e6c.us1a.app.preset.io/superset/dashboard/8/?native_filters_key=a0M9PQ8uVdx1g8Df23x5dw
+    description: Executive Dashboard about Airbnb listings and hosts
+
+
+    depends_on:
+      - ref('dim_listings_cleansed')
+      - ref('dim_hosts_cleansed')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: K.M.R.S.K.Phalgun
+      email: phalgun.kothamasu@ibm.com

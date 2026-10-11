@@ -1,0 +1,4 @@
+.devcontainer
+_course_resources
+.venv
+set-env.ps1
