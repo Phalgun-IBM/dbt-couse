@@ -4,6 +4,7 @@ _course_resources
 set-env.ps1
 
 airbnb/profiles.yml
+airbnb/_prod_profiles/profiles.yml
 airbnb/target/
 airbnb/target-prod/
 logs/
