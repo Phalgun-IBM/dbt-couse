@@ -16,5 +16,7 @@ airbnb/dbt_internal_packages/
 .vscode
 
 .user.yml
+airbnb/.user.yml
+airbnb/_prod_profiles/.user.yml
 .DS_Store
 
