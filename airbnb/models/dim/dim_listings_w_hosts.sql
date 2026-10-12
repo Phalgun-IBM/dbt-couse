@@ -11,7 +11,7 @@ SELECT
     l.listing_name,
     l.room_type,
     l.minimum_nights,
-    l.price
+    l.price,
     l.price_str,
     l.host_id,
     h.host_name,
